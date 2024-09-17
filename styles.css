@@ -27,13 +27,14 @@ header {
     width: 100%;
     position: sticky;
     top: 0;
+    left: 0;
     border-style: var(--bstyle);
     border-width: var(--bwith);
 }
 
 main {
-    padding-top: 3.5%;
-    clear: both;
+    padding-top: 1%;
+    position: relative;
 }
 
 .content {
@@ -53,7 +54,7 @@ main {
     padding-right: 1%;
     padding-top: 1%;
     padding-bottom: 1%;
-    margin: 1% 0;
+    margin: 1% 1% 1% 0;
     clear: both;
 }
 
@@ -75,5 +76,6 @@ footer {
     text-align: center;
     position: fixed;
     bottom: 0;
+    left: 0;
     width: 100%;
 }
